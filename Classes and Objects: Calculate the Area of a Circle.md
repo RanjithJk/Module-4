@@ -12,20 +12,22 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 
+Add code here
 ```
+import math
+
 class cse:
     def mech(self, r):
-        area = 3.14 * r * r
-        print("Area of Circle =", area)
+        c = math.pi * r**2
+        print(f"Area of circle: {c:.2f}")
 
-r = float(input("Enter the radius: "))
-
-obj = cse()
-obj.mech(r)
+r = int(input("Enter radius: "))
+ci = cse() 
+ci.mech(r)
 ```
 
 ## Output
-<img width="1286" height="598" alt="Screenshot 2026-06-03 111304" src="https://github.com/user-attachments/assets/5dcf71b8-2cc7-48b7-8738-e0f12a5e4460" />
+<img width="628" height="201" alt="image" src="https://github.com/user-attachments/assets/addae4cf-9912-480a-83a8-caaf1713d2e0" />
 
 ## Result
-Execution of program is completed
+Thus the python program executed successfully!
